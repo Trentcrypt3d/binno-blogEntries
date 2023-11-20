@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600;700;800&family=Nunito:wght@300;500&family=Roboto:wght@100;300;700;900&display=swap');
+
+
+.createBlog{
+    padding: 10px 20px;
+    margin: 0 50px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color: #fd7c06;
+    font-family:  'Inter', sans-serif;
+  }
+  
+.createBlog:hover{
+    cursor: pointer;
+    background-color: #054eae;
+    transition: 0.5ms;
+}
+  
+body.active-modal {
+    overflow-y: hidden;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+
+.titleDateContainer{
+    display: flex;
+}
+
+
+.titleTextBox {
+    flex: 1;
+    display: inline-block;
+    border: none;
+    overflow: hidden;
+    margin: 20px 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    background-color: #f1f1f1;
+    font-weight: 600;
+}
+
+.titleDateContainer p{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+}
+
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    font-family: 'Inter', sans-serif;
+    transform: translate(-50%, -50%);
+    background: #f1f1f1;
+    border-radius: 10px;
+    width: 70%;
+    height: auto;
+    padding: 20px;
+    z-index: 2;
+}
+
+
+.categoryButton{
+    background-color: #999999;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    color: #f1f1f1;
+    margin: 0 10px ;
+}
+
+.contentDetail{
+    height: 200px;
+    display: inline-block;
+    border: none;
+    margin: 20px 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    background-color: #f1f1f1;
+}
+
+
+.uploadButton{
+    background-color: #fd7c06;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    color: #f1f1f1;
+    margin: 0 10px ;
+}
+
+.uploadButton:hover, .categoryButton:hover{
+    cursor: pointer;
+    background-color: #054eae;
+}
+
+.dropboxContainer {
+    display: flex;
+    align-self: center;
+    margin-bottom: 20px;
+    border: red 1px solid;
+}
+
+.close-modal {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: none;
+}
+
+.close-modal:hover {
+    cursor: pointer;
+    color:#054eae;
+}

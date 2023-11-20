@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600;700;800&family=Nunito:wght@300;500&family=Roboto:wght@100;300;700;900&display=swap');
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.logo {
+  width: 300px;
+  height: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.layoutContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+
+.bodyContainer{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 40px;
+}
+
+
+.Headline{
+  width: 100%;
+}
+
+h1{
+  font-family: 'Inter', sans-serif;
+  
+}
+
+.blogButtons{
+  display: flex;
+  margin: 0;
+
+}
+
+.modalButton{
+  flex: 1;
+}
+
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+

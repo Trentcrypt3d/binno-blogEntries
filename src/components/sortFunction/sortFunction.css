@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600;700;800&family=Nunito:wght@300;500&family=Roboto:wght@100;300;700;900&display=swap');
+
+
+.show {
+    display:block;
+}
+
+.sortButtonContainer{  
+    display: inline-block;
+}
+
+.sortButton{
+    display: flex;
+    align-items: center;
+    border: none;
+    margin: 0 50px;
+    border-radius: 10px;
+    background-color: #9999;
+    font-family:  'Inter', sans-serif;
+}
+
+.sortButton:hover{
+    cursor: pointer;
+    background-color: rgba(104, 104, 104, 0.8);
+    transition: 0.5ms;
+}
+
+.sortOptions{
+    display: flex;
+    align-content: center;
+    background-color: #999;
+    border-radius: 10px;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+}
+
+.textOption {
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    font-family: 'Inter', sans-serif;
+    border-bottom: black;
+    z-index: 1;
+}
+
+.textOption:hover{
+    cursor: pointer;
+    background-color: #ddd;
+}
